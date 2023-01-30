@@ -8,13 +8,13 @@
 body {
   background-image: url("../images/Background.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   color: white;
-  min-height: 100%;
-  padding-bottom: 50%;
 }
 
 .navbar {
   background-color: transparent;
+  padding-bottom: 10%;
 }
 
 .navbar-content {
@@ -77,12 +77,11 @@ body {
 }
 
 .footer {
-  position: absolute;
-  bottom: 0;
   color: #fff;
   width: 100%;
   text-align: center;
   line-height: 50px;
+  margin-top: 10%;
 }
 
 .footer-container {
@@ -96,7 +95,7 @@ body {
 }
 
 .main-content {
-  padding-top: 50px;
+  margin-top: auto;
 }
 
 .movies {
@@ -112,42 +111,33 @@ body {
 }
 
 .main-title {
-  padding-left: 10px;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
-@media (min-width: 375px) {
-  body {
-    background-image: url("../images/Background.jpg");
-    background-size: cover;
-    color: white;
-    min-height: 100%;
-    padding-bottom: 30%;
-  }
-  .main-content {
-    padding-top: 5px;
-  }
-  .footer {
-    position: absolute;
-    bottom: 0;
-    color: #fff;
-    width: 100%;
-    text-align: center;
-    line-height: 50px;
-  }
-  .footer-container {
-    background-image: linear-gradient(transparent, darkred);
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    padding: 5px;
-    gap: 5px;
-    font-size: 10px;
-  }
+.owl-carousel {
+  cursor: pointer;
 }
-@media (min-width: 425px) {
-  body {
-    padding-bottom: 10%;
-  }
+
+.owl-nav {
+  background: black;
+  position: absolute;
+  top: 45%;
+  justify-content: space-between;
+}
+
+.owl-next {
+  height: 100px;
+}
+.owl-next span {
+  right: 0;
+}
+
+.owl-prev {
+  height: 100px;
+}
+.owl-prev span {
+  margin-right: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
