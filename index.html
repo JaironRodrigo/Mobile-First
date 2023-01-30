@@ -29,23 +29,26 @@
     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <header>
-    <nav class="navbar bg-body-tertiary">
-      <div class=" navbar-content">
-        <h1 class="title">CODE+</h1>
-        <p class="subtitle">Início</p>
-        <p class="subtitle">Séries</p>
-        <p class="subtitle">Filmes</p>
-        <div class="container-fluid">
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-dark" type="submit">Search</button>
-          </form>
-        </div>
-    </nav>
+    <div class="content">
+
+      <nav class="navbar">
+        <div class="navbar-content">
+          <h1 class="title">CODE<span class="plus-title">+</span></h1>
+          <a class="subtitle">Início</a>
+          <a class="subtitle">Séries</a>
+          <a class="subtitle">Filmes</a>
+          <div class="container-fluid">
+            <form class="nav-search" role="search">
+              <input type="search" aria-label="Search" class="search-area">
+              <button type="submit" class="btn-search"><img src="./assets/images/btn search.png" alt=""
+                  class="btn-image"></button>
+            </form>
+          </div>
+      </nav>
   </header>
-  <main>
-    <div class="Movies">
-      <h3>FILMES</h3>
+  <main class="main-content">
+    <div class="movies">
+      <h3 class="main-title">FILMES</h3>
       <div class="owl-carousel owl-theme">
         <div class="item">
           <img src="./assets/images/A Origem.jpg" alt="">
@@ -68,8 +71,8 @@
       </div>
     </div>
     </div>
-    <div class="Series">
-      <h3>SÉRIES</h3>
+    <div class="series">
+      <h3 class="main-title">SÉRIES</h3>
       <div class="owl-carousel owl-theme">
         <div class="item">
           <img src="./assets/images/Breaking Bad.jpg" alt="">
@@ -94,34 +97,13 @@
   </main>
   <footer class="footer">
     <div class="footer-container">
-      <h4 class="footer-title">CODE+</h4>
+      <h4 class="title">CODE <span class="plus-title">+</span></h4>
       <p class="footer-copy">by Jairon Rodrigo &copy; todos os direitos reservados - 2023</p>
     </div>
   </footer>
+  </div>
 
-  <!-- Script JS -->
-  <script type="text/javascript">
-    $(".owl-carousel").owlCarousel({
-      loop: true,
-      margin: 20,
-      nav: true,
-      dots: false,
-      stagePadding: 50,
-      autoplay: true,
-      autoplayTimeout: 3000,
-      responsive: {
-        0: {
-          items: 2,
-        },
-        600: {
-          items: 3,
-        },
-        1000: {
-          items: 5,
-        },
-      },
-    });
-  </script>
+  <script src="./script.js"></script>
 </body>
 
 </html>
