@@ -16,6 +16,10 @@ body {
   background-color: transparent;
   padding-bottom: 10%;
 }
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
 
 .navbar-content {
   background-image: linear-gradient(darkred, transparent);
@@ -117,27 +121,6 @@ body {
 
 .owl-carousel {
   cursor: pointer;
-}
-
-.owl-nav {
-  background: black;
-  position: absolute;
-  top: 45%;
-  justify-content: space-between;
-}
-
-.owl-next {
-  height: 100px;
-}
-.owl-next span {
-  right: 0;
-}
-
-.owl-prev {
-  height: 100px;
-}
-.owl-prev span {
-  margin-right: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

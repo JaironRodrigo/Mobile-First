@@ -16,6 +16,10 @@ body {
 .navbar {
   background-color: transparent;
   padding-bottom: 10%;
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
 }
 
 .navbar-content {
@@ -118,24 +122,4 @@ body {
 
 .owl-carousel {
   cursor: pointer;
-}
-
-.owl-nav {
-  background: black;
-  position: absolute;
-  top: 45%;
-  justify-content: space-between;
-}
-
-.owl-next {
-  height: 100px;
-  span {
-    right: 0;
-  }
-}
-.owl-prev {
-  height: 100px;
-  span {
-    margin-right: 0;
-  }
 }
