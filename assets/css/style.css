@@ -22,7 +22,7 @@ body {
 }
 
 .navbar-content {
-  background-image: linear-gradient(darkred, transparent);
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: start;
@@ -31,6 +31,7 @@ body {
   padding-left: 20px;
   gap: 10px;
   font-size: 10px;
+  border-bottom: 2px solid red;
 }
 
 .title {
@@ -91,7 +92,7 @@ body {
 .footer-container {
   background-image: linear-gradient(transparent, darkred);
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
   padding: 5px;
   gap: 5px;
@@ -115,12 +116,104 @@ body {
 }
 
 .main-title {
+  text-transform: uppercase;
+  font-size: 15px;
   text-align: center;
   padding-bottom: 10px;
 }
 
 .owl-carousel {
   cursor: pointer;
+}
+
+@media (min-width: 425px) {
+  .nav-search {
+    margin-left: 60px;
+  }
+  .nav-search .search-area {
+    width: 70%;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+  }
+  .title {
+    font-size: 20px;
+    font-family: "Unbounded";
+    font-weight: 700;
+    color: white;
+  }
+  .subtitle {
+    font-size: 12px;
+    font-family: "Unbounded";
+    font-weight: 400;
+  }
+  .nav-search {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .nav-search .search-area {
+    width: 100%;
+  }
+  .footer-container {
+    gap: 10px;
+    font-size: 15px;
+  }
+}
+@media (min-width: 1440px) {
+  .navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+  }
+  .title {
+    font-size: 25px;
+    font-family: "Unbounded";
+    font-weight: 700;
+    color: white;
+  }
+  .subtitle {
+    font-size: 15px;
+    font-family: "Unbounded";
+    font-weight: 400;
+  }
+  .nav-search {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .nav-search .search-area {
+    width: 100%;
+    font-size: 15px;
+    background-color: black;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+  }
+  .main-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .btn-image {
+    width: 20px;
+    margin-left: 5px;
+  }
+  .footer-container {
+    gap: 10px;
+    font-size: 15px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
