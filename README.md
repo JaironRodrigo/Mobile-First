@@ -1,8 +1,8 @@
 <h1 align="center">Mobile First</h1>
 
-<p>Este é o CODE+, um projeto feito para simular um streaming, inspirado na netflix</p>
+<p>Olá, bem vindo ao CODE+, um projeto feito para simular um streaming, inspirado na netflix</p>
 
-<p>Foi projetado para mobiles, conforme as imagens</p>
+<p>Foi projetado para mobiles, confira as imagens abaixo: </p>
 
 <p align="center">
   <img src="./assets/images/Responsive/Captura de Tela (14).png" alt=""></img>
